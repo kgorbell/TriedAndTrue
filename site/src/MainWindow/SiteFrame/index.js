@@ -20,7 +20,7 @@ class SiteFrame extends React.Component {
                 <div className="SiteFrame__content">
                     {children}
                 </div>
-                <MainNav />
+                <Footer />
             </div>
         )
     };
