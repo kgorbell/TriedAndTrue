@@ -2,16 +2,16 @@ import React from 'react';
 import './styles.scss';
 
 
-class SiteFrame extends React.Component {
+class HomePage extends React.Component {
 
     render() {
 
         return (
-            <div className="SiteFrame">
+            <div>
 
             </div>
         )
     };
 };
 
-export default SiteFrame;
+export default HomePage;
