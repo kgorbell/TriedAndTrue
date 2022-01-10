@@ -1,0 +1,10 @@
+@use "../../variables";
+
+.MainNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: variables.$gray25;
+}

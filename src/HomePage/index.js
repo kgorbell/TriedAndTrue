@@ -5,7 +5,6 @@ import './styles.scss'
 const HomePage = props => {
     return (
         <div className="HomePage">
-            
         </div>
     )
 }

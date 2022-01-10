@@ -5,7 +5,7 @@ import './styles.scss'
 const MainNav = props => {
     return (
         <div className="MainNav">
-
+            Tried and True
         </div>
     )
 }
