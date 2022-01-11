@@ -1,1 +1,8 @@
+.App {
+    font-size: .875rem;
+    line-height: 1rem;
+}
 
+.App p {
+    margin: 5px 0; 
+}
