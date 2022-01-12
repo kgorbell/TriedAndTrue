@@ -9,8 +9,10 @@ const SiteFrame = props => {
     const { children } = props
     return (
         <div className="SiteFrame">
-            <MainNav />
-            {children}
+            <div className="SiteFrame__content">
+                <MainNav />
+                {children}
+            </div>
             <Footer />
         </div>
     )
