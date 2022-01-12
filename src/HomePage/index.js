@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../components/general/Button'
 import MastHead from './MastHead'
 import './styles.scss'
 
@@ -16,8 +15,6 @@ const HomePage = props => {
                     <p>Happy Cooking!</p>
                     <p className="HomePage__signoff">&hearts; -Katie Gorbell</p>
                 </div>
-                <Button>hello</Button>
-
             </div>
         </div>
     )
