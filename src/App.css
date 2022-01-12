@@ -1,8 +1,9 @@
 .App {
-    font-size: .875rem;
-    line-height: 1rem;
+    line-height: 1.125rem;
+    font: 1rem 'Trebuchet MS', Verdana, sans-serif;
+    max-width: 100vw;
 }
 
 .App p {
-    margin: 5px 0; 
+    margin: 5px 0 10px; 
 }
