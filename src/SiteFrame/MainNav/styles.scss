@@ -2,13 +2,15 @@
 
 .MainNav {
     z-index: 1000;
-    position: absolute;
+    position: sticky;
+    top: 0;
     box-sizing: border-box;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    padding: 10px 15px;
-    background-color: variables.$gray10;
+    padding: 15px 20px;
+    background-color: variables.$gray100-opaque95;
+    color: white;
 }
