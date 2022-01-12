@@ -1,5 +1,6 @@
 // ** Colors **
-$green90: rgb(19, 59, 30);
+$mossGreen: rgb(74, 93, 35);
+$paleGold: rgb(230, 190, 138);
 
 $gray10: rgb(210, 210, 210);
 $gray25: rgb(175, 175, 175);
@@ -10,6 +11,15 @@ $pure-black: rgb(0, 0, 0);
 
 // ** Font-Colors **
 $fontColor-primary: rgb(14, 14, 14);
+
+
+// ** Font-Sizes **
+$size18-32: calc(18px + (32 - 18) * ((100vw - 460px) / (2400 - 460)));
+$size20-34: calc(20px + (34 - 20) * ((100vw - 460px) / (2400 - 460)));
+$size22-36: calc(22px + (36 - 22) * ((100vw - 460px) / (2400 - 460)));
+$size24-38: calc(24px + (38 - 24) * ((100vw - 460px) / (2400 - 460)));
+$size26-40: calc(26px + (40 - 26) * ((100vw - 460px) / (2400 - 460)));
+$size38-46: calc(34px + (46 - 34) * ((100vw - 460px) / (2400 - 460)));
 
 
 // ** Breakpoints **
