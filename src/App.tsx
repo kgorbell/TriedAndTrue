@@ -1,16 +1,21 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import './App.scss';
-import {
-  Home
-} from './pages';
+
+import Home from './pages/Home';
+
+import Footer from './components/Footer/Footer';
+
+import './styles/App.scss';
+
 
 const App: React.FC = () => {
   return (
-    <div className="app-container">
+    <div className="app-layout">
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 };
